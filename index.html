@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nankay - Tienda Oficial</title>
+
+    <!-- CSS de Bootstrap 5.3.3 e Iconos -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="bg-light pt-5">
+
+    <!-- PRIMERA SECCIÓN: ENCABEZADO / NAVBAR -->
+    <nav class="navbar bg-white fixed-top shadow-sm py-2">
+        <div class="container justify-content-center text-center">
+            <a href="#"
+               class="navbar-brand d-flex align-items-center gap-2 m-0 text-decoration-none">
+                <img src="logo_nankay.jpg"
+                     alt="Logo Nankay"
+                     width="48"
+                     height="48"
+                     class="rounded-circle object-fit-cover border border-success">
+                <div class="text-start">
+                    <span class="fw-bold fs-4 text-success lh-1 d-block">
+                        NANKAY
+                    </span>
+                    <small class="text-secondary">
+                        Dale vida a tu hogar
+                    </small>
+                </div>
+            </a>
+        </div>
+    </nav>
+
+    <!-- SEGUNDA SECCIÓN: BANNER PRINCIPAL (HERO) -->
+    <header id="inicio" class="container py-4 mt-4">
+        <div class="card bg-dark text-white border-0 shadow-lg rounded-4 overflow-hidden position-relative">
+            <img src="imagenrepresentativa.jpg"
+                 class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover opacity-50"
+                 alt="Nankay Hero">
+            <div class="card-body position-relative text-center p-4 p-md-5 my-md-3">
+                <span class="badge bg-success bg-opacity-75 mb-3 px-3 py-2 rounded-pill fw-normal">
+                    <i class="bi bi-flower1 me-1"></i> Vivero & Artesanías Ecológicas
+                </span>
+                <h1 class="display-6 fw-bold mb-3">
+                    Dale vida a tu hogar y purifica la energía de tus espacios con Nankay.
+                </h1>
+                <p class="lead mb-4 opacity-90 col-lg-8 mx-auto">
+                    Macetas artesanales, suculentas vivas, recuerdos personalizados y regalos con sentido ecológico.
+                </p>
+                <div class="d-flex gap-3 justify-content-center flex-wrap">
+                    <a href="#productos"
+                       class="btn btn-success btn-lg px-4 fw-semibold shadow-sm">
+                        <i class="bi bi-bag-heart me-2"></i>Ver Catálogo
+                    </a>
+                    <a href="#contacto"
+                       class="btn btn-outline-light btn-lg px-4 fw-semibold">
+                        <i class="bi bi-whatsapp me-2"></i>Escríbenos
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- TERCERA SECCIÓN: NUESTROS PRODUCTOS -->
+    <main class="container py-4" id="productos">
+        <div class="text-center mb-5">
+            <h2 class="h3 fw-bold text-success display-6">
+                Nuestros Productos
+            </h2>
+            <p class="text-secondary">
+                Explora cada una de nuestras líneas de diseño
+            </p>
+        </div>
+
+        <div class="row row-cols-1 g-4 col-md-10 col-lg-8 mx-auto">
+            <!-- 1. Macetas Decorativas -->
+            <div class="col">
+                <div class="card border-0 shadow-sm rounded-4 p-4 bg-white">
+                    <div class="row g-3 align-items-center">
+                        <div class="col">
+                            <h3 class="h4 fw-bold text-success mb-0">
+                                Macetas Decorativas
+                            </h3>
+                        </div>
+                        <div class="col-auto">
+                            <img src="macetasdecorativas.jpg"
+                                 class="rounded-circle object-fit-cover border border-2 border-success shadow-sm"
+                                 alt="Macetas Decorativas"
+                                 width="120"
+                                 height="120">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Velas Artesanales -->
+            <div class="col">
+                <div class="card border-0 shadow-sm rounded-4 p-4 bg-white">
+                    <div class="row g-3 align-items-center flex-row-reverse">
+                        <div class="col">
+                            <h3 class="h4 fw-bold text-success mb-0">
+                                Velas Artesanales
+                            </h3>
+                        </div>
+                        <div class="col-auto">
+                            <img src="velasartesanales.jpg"
+                                 class="rounded-circle object-fit-cover border border-2 border-success shadow-sm"
+                                 alt="Velas Artesanales"
+                                 width="120"
+                                 height="120">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Recuerdos de Bodas y Cumpleaños -->
+            <div class="col">
+                <div class="card border-0 shadow-sm rounded-4 p-4 bg-white">
+                    <div class="row g-3 align-items-center">
+                        <div class="col">
+                            <h3 class="h4 fw-bold text-success mb-0">
+                                Recuerdos de Bodas y Cumpleaños
+                            </h3>
+                        </div>
+                        <div class="col-auto">
+                            <img src="recuerdosdebodasycumpleaños.jpg"
+                                 class="rounded-circle object-fit-cover border border-2 border-success shadow-sm"
+                                 alt="Recuerdos de Bodas"
+                                 width="120"
+                                 height="120">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Detalles Corporativos -->
+            <div class="col">
+                <div class="card border-0 shadow-sm rounded-4 p-4 bg-white">
+                    <div class="row g-3 align-items-center flex-row-reverse">
+                        <div class="col">
+                            <h3 class="h4 fw-bold text-success mb-0">
+                                Detalles Corporativos
+                            </h3>
+                        </div>
+                        <div class="col-auto">
+                            <img src="imagenrepresentativa.jpg"
+                                 class="rounded-circle object-fit-cover border border-2 border-success shadow-sm"
+                                 alt="Detalles Corporativos"
+                                 width="120"
+                                 height="120">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. Mini Jardines -->
+            <div class="col">
+                <div class="card border-0 shadow-sm rounded-4 p-4 bg-white">
+                    <div class="row g-3 align-items-center">
+                        <div class="col">
+                            <h3 class="h4 fw-bold text-success mb-0">
+                                Mini Jardines
+                            </h3>
+                        </div>
+                        <div class="col-auto">
+                            <img src="minijardines.jpg"
+                                 class="rounded-circle object-fit-cover border border-2 border-success shadow-sm"
+                                 alt="Mini Jardines"
+                                 width="120"
+                                 height="120">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6. Lista de Servicios -->
+            <div class="col">
+                <div class="card border-0 shadow-sm rounded-4 bg-success bg-opacity-10 p-4">
+                    <h3 class="h4 fw-bold text-success mb-3">
+                        <i class="bi bi-list-check me-2"></i>Lista de Servicios
+                    </h3>
+                    <ul class="list-unstyled vstack gap-2 small mb-0">
+                        <li><i class="bi bi-check-circle-fill text-success me-2"></i>Personalización de etiquetas para eventos.</li>
+                        <li><i class="bi bi-check-circle-fill text-success me-2"></i>Asesoría en cuidado de suculentas y plantas.</li>
+                        <li><i class="bi bi-check-circle-fill text-success me-2"></i>Envíos seguros a domicilio a todo el Ecuador.</li>
+                        <li><i class="bi bi-check-circle-fill text-success me-2"></i>Venta al por mayor y menor.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- CUARTA SECCIÓN: UBICACIÓN Y MAPA -->
+    <section id="ubicacion" class="container py-4">
+        <div class="card border-0 shadow-sm rounded-4 overflow-hidden col-md-10 col-lg-8 mx-auto">
+            <div class="card-header bg-success text-white py-3 border-0 text-center">
+                <h2 class="h5 fw-bold mb-0">
+                    <i class="bi bi-geo-alt-fill me-2"></i>Ubicación Nankay en Google Maps
+                </h2>
+            </div>
+            <div class="ratio ratio-16x9 ratio-md-21x9">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.283182819875!2d-78.59123!3d-0.93829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMMKwNTYnMzcuOCJTIDc4wrAzNScyOC40Ilc!5e0!3m2!1ses!2sec!4v1710000000000!5m2!1ses!2sec"
+                        class="border-0"
+                        allowfullscreen=""
+                        loading="lazy"></iframe>
+            </div>
+            <div class="card-footer bg-light border-0 p-3 text-center">
+                <a href="https://maps.app.goo.gl/KG6iqsiBciTDAyrC6"
+                   target="_blank"
+                   class="btn btn-success fw-semibold btn-sm px-4">
+                    <i class="bi bi-box-arrow-up-right me-2"></i>Abrir directamente en la App de Google Maps
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUINTA SECCIÓN: FORMULARIO -->
+    <section id="pedidos" class="container my-4">
+        <div class="row g-3 justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8">
+                <div class="card border-0 shadow-sm rounded-4 p-4 p-md-5 bg-white">
+                    <h2 class="h3 fw-bold text-success mb-2 text-center">
+                        Realiza tu pedido
+                    </h2>
+                    <p class="text-secondary mb-4 text-center">
+                        Cuéntanos qué producto deseas y cómo podemos contactarte.
+                    </p>
+                    <form action="#" method="POST">
+                        <!-- Nombre completo -->
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label fw-semibold">
+                                Nombre completo:
+                            </label>
+                            <input type="text"
+                                   class="form-control"
+                                   id="nombre"
+                                   name="nombre"
+                                   placeholder="Ingresa tu nombre"
+                                   required>
+                        </div>
+
+                        <!-- Teléfono -->
+                        <div class="mb-3">
+                            <label for="telefono" class="form-label fw-semibold">
+                                Número de teléfono:
+                            </label>
+                            <input type="tel"
+                                   class="form-control"
+                                   id="telefono"
+                                   name="telefono"
+                                   placeholder="Ej. 0991234567"
+                                   required>
+                        </div>
+
+                        <!-- Correo electrónico -->
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-semibold">
+                                Correo electrónico:
+                            </label>
+                            <input type="email"
+                                   class="form-control"
+                                   id="email"
+                                   name="email"
+                                   placeholder="correo@ejemplo.com"
+                                   required>
+                        </div>
+
+                        <!-- Producto -->
+                        <div class="mb-3">
+                            <label for="producto" class="form-label fw-semibold">
+                                Producto de interés:
+                            </label>
+                            <select class="form-select"
+                                    id="producto"
+                                    name="producto"
+                                    required>
+                                <option value="" selected disabled>
+                                    Selecciona un producto
+                                </option>
+                                <option value="macetas">
+                                    Macetas decorativas
+                                </option>
+                                <option value="velas">
+                                    Velas artesanales
+                                </option>
+                                <option value="recuerdos">
+                                    Recuerdos de boda y cumpleaños
+                                </option>
+                                <option value="detalles">
+                                    Detalles corporativos
+                                </option>
+                                <option value="mini">
+                                    Mini jardines
+                                </option>
+                            </select>
+                        </div>
+
+                        <!-- Detalles del pedido -->
+                        <div class="mb-3">
+                            <label for="detalles" class="form-label fw-semibold">
+                                Detalles del pedido:
+                            </label>
+                            <textarea class="form-control"
+                                      id="detalles"
+                                      name="detalles"
+                                      rows="4"
+                                      placeholder="Describe cómo deseas tu producto"></textarea>
+                        </div>
+
+                        <!-- Botón -->
+                        <button type="submit"
+                                class="btn btn-success w-100 py-2 fw-semibold shadow-sm">
+                            Solicitar pedido
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEXTA SECCIÓN: CONTACTO Y REDES SOCIALES -->
+    <footer id="contacto" class="bg-white py-5 mt-5 border-top shadow-sm">
+        <div class="container text-center">
+            <div class="d-flex align-items-center justify-content-center gap-2 mb-2">
+                <img src="logo_nankay.jpg"
+                     alt="Logo Nankay"
+                     width="42"
+                     height="42"
+                     class="rounded-circle object-fit-cover border border-success">
+                <span class="fw-bold fs-3 text-success">
+                    NANKAY
+                </span>
+            </div>
+            <h3 class="h5 fw-bold mb-4">
+                Contactos y Redes Sociales
+            </h3>
+
+            <div class="row row-cols-1 row-cols-md-3 g-3 mb-4 col-md-10 col-lg-8 mx-auto">
+                <div class="col">
+                    <div class="p-3 bg-light rounded-3 border">
+                        <i class="bi bi-telephone-fill text-success fs-4 d-block mb-1"></i>
+                        <span class="fw-semibold">097 869 6410</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 bg-light rounded-3 border">
+                        <i class="bi bi-whatsapp text-success fs-4 d-block mb-1"></i>
+                        <span class="fw-semibold">+593 97 869 6410</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 bg-light rounded-3 border">
+                        <i class="bi bi-envelope-fill text-success fs-4 d-block mb-1"></i>
+                        <span class="fw-semibold">nankaec@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center gap-4 fs-3 mb-4 flex-wrap">
+                <a href="https://wa.me/593978696410" target="_blank" class="text-success"><i class="bi bi-whatsapp"></i></a>
+                <a href="mailto:nankaec@gmail.com" class="text-success"><i class="bi bi-envelope-at-fill"></i></a>
+                <a href="https://www.facebook.com/nankayec/" target="_blank" class="text-success"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/nankayec/" target="_blank" class="text-success"><i class="bi bi-instagram"></i></a>
+                <a href="#inicio" class="text-success"><i class="bi bi-arrow-up-circle-fill"></i></a>
+            </div>
+
+            <div class="text-secondary small border-top pt-3">
+                <p class="mb-0">&copy; 2026 Nankay. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script de Bootstrap 5 Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
